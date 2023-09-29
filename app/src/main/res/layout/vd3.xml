@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ACC1" >
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="235dp"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:text="Họ tên"
+        />
+
+    <EditText
+        android:id="@+id/editA"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Nhập tên"
+        android:textColor="#74000000"
+        android:background="#FDD835"
+
+/>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:textSize="18sp"
+        android:layout_marginLeft="30dp"
+        android:text="Nhập tuổi"
+        android:textColor="#000000"
+
+        />
+
+
+    <EditText
+        android:id="@+id/editB"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="20dp"
+        android:background="#FDD835"
+        android:ems="10"
+        android:hint="Nhập tuổi"
+        android:textColor="#6F000000"
+
+        />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:text="Quê quán"
+        android:textColor="#000000"
+
+        />
+
+
+    <EditText
+        android:id="@+id/editC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginRight="20dp"
+        android:background="#C0CA33"
+        android:ems="10"
+        android:inputType="text"
+        android:text=" " />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/kien" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editC"
+        android:text="Button" />
+    <EditText
+        android:id="@+id/editKq"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button5"
+    />
+</RelativeLayout>
